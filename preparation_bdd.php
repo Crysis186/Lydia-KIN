@@ -12,7 +12,7 @@ while($row = mysql_fetch_array($query_selection_user)){
 
 if (!isset($users_id)) 
 {
-<b>echo("</br>Numero de telephone incorrect - Redirection imminente")</b>;
+echo("</br><b>Numero de telephone incorrect - Redirection imminente</b>");
 ?>
 <script>
 function redirection(){
