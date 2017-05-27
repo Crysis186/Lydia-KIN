@@ -1,6 +1,6 @@
 <?php
 
-require('config.php');
+require('../config.php');
 
 //$url = "https://homologation.lydia-app.com/api/payment/payment.json";
 $url = "https://lydia-app.com/api/payment/payment.json";
@@ -48,8 +48,8 @@ setTimeout("redirection()",4000);
 $transaction_identifier =  $reponse->{'transaction_identifier'};
 $order_ref = (int)$_POST['order_id'];
 
-require('selection_bdd.php');
-require('finalisation_bdd.php');
+require('../selection_bdd.php');
+require('../finalisation_bdd.php');
 
 echo("<br/><br/>PARFAIT TON COMPTE A ETE RECHARGE<br/><br/>");
 

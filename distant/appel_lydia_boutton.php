@@ -1,6 +1,6 @@
 <?php
-require('config.php');
-require('preparation_bdd.php')
+require('../config.php');
+require('../preparation_bdd.php')
 ?>
 
 <!DOCTYPE html>
@@ -8,7 +8,7 @@ require('preparation_bdd.php')
 <head>
 	<title>Appel_php</title>
 	<script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
-	<script type="text/javascript" src="LYDIASDK.js"></script>
+	<script type="text/javascript" src="../LYDIASDK.js"></script>
 </head>
 <body>
 

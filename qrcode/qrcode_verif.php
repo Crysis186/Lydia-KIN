@@ -1,7 +1,7 @@
 <?php
 
-require('config.php');
-require('preparation_bdd.php');
+require('../config.php');
+require('../preparation_bdd.php');
 
 ?>
 
@@ -26,7 +26,7 @@ document.getElementById('vendor_token').value = vendor_token;
 </script>
 
 <body onload="myload()">
-<form name="myForm" action="http://lydia.kin/qrcode_curlopt.php" method="post">
+<form name="myForm" action="qrcode_curlopt.php" method="post">
     <input type="hidden" name='phone' id='phone' value="?"/>
 	<input type="hidden" name='amount' id='amount' value="?"/>
 	<input type="hidden" name='order_id' id='order_id' value="?"/>

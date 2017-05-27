@@ -1,6 +1,6 @@
 <?php
 
-require('config.php');
+require('../config.php');
 
 if(!isset($_POST['request_id']) || !isset($_POST['amount']) 
 || !isset($_POST['signed']) || !isset($_POST['transaction_identifier'])
@@ -36,6 +36,6 @@ if($callSig != $_POST['sig'])
 	exit;
 }
 $transaction_identifier = $_POST['transaction_identifier'];
-require('finalisation_bdd.php');
+require('../finalisation_bdd.php');
 
 ?>
