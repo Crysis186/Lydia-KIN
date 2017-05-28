@@ -36,8 +36,14 @@ while($row = mysql_fetch_array($query_order_ref)){
 	$order_ref = $row['id'];
 }
 
-echo "<br/> Bucque de ton compte kfet : ".$user_bucque."<br/>";
-echo "Montant de ta recharge : ".$montant."E<br/><br/>";
+echo '<div class="ui segments">';
+echo '<div class="ui segment">';
+echo '<p>Bucque de ton compte kfet : <b>'.$user_bucque.'</b></p>';
+echo '</div>';
+echo '<div class="ui blue segment">';
+echo '<p>Montant de ta recharge : <b>'.$montant.'E</b></p>';
+echo '</div>';
+echo '</div>';
 //echo "Order ref : ".$order_ref."<br/>";
 
 ?>
@@ -48,6 +54,6 @@ echo "Montant de ta recharge : ".$montant."E<br/><br/>";
 <script src = "../javascript/semantic.js" type = "text/javascript"></script>
 <link rel = "stylesheet" href = "../css/semantic.css"/>
 </head>
-<body style="margin:70px;">
+<body class="ui center aligned basic segment">
 </body>
 </html>
