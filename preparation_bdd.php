@@ -36,10 +36,10 @@ while($row = mysql_fetch_array($query_order_ref)){
 	$order_ref = $row['id'];
 }
 
-echo '<div class="ui center primary orange compact segment">';
+echo '<div class="ui center floated primary orange compact segment">';
 echo '<p>Bucque de ton compte kfet : <b>'.$user_bucque.'</b></p>';
 echo '</div>';
-echo '<div class="ui center secondary orange compact segment">';
+echo '<div class="ui center floated secondary orange compact segment">';
 echo '<p>Montant de ta recharge : <b>'.$montant.'E</b></p>';
 echo '</div>';
 //echo "Order ref : ".$order_ref."<br/>";
