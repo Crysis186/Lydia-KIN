@@ -37,10 +37,10 @@ while($row = mysql_fetch_array($query_order_ref)){
 }
 
 echo '<div class="ui segments">';
-echo '<div class="ui segment">';
+echo '<div class="ui primary inverted blue segment">';
 echo '<p>Bucque de ton compte kfet : <b>'.$user_bucque.'</b></p>';
 echo '</div>';
-echo '<div class="ui blue segment">';
+echo '<div class="ui tertiary inverted blue segment">';
 echo '<p>Montant de ta recharge : <b>'.$montant.'E</b></p>';
 echo '</div>';
 echo '</div>';
