@@ -60,7 +60,7 @@ echo("<br/><br/>PARFAIT TON COMPTE A ETE RECHARGE<br/><br/>");
 <head>
 </head>
 <body>
-	<a href="qrcode.html"></a><input type="button" onclick="document.location.href='http://lydia.rezal.fr/qrcode.html';" value="RECOMMENCER UN SCAN"></a>
+	<a href="qrcode.html"></a><input type="button" onclick="document.location.href='qrcode.html';" value="RECOMMENCER UN SCAN"></a>
 </body>
 </html>
 
