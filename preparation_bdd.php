@@ -48,6 +48,6 @@ echo "Montant de ta recharge : ".$montant."E<br/><br/>";
 <script src = "../javascript/semantic.js" type = "text/javascript"></script>
 <link rel = "stylesheet" href = "../css/semantic.css"/>
 </head>
-<body>
+<body style="margin:70px;">
 </body>
 </html>
