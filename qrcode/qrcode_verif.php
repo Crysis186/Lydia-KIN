@@ -8,6 +8,8 @@ require('../preparation_bdd.php');
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+<script src = "../javascript/semantic.js" type = "text/javascript"></script>
+<link rel = "stylesheet" href = "../css/semantic.css"/>
 </head>
 <script type="text/javascript">
 function myload() {
