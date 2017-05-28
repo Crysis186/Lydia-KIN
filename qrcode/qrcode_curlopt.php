@@ -61,8 +61,8 @@ echo("<br/><br/>PARFAIT TON COMPTE A ETE RECHARGE<br/><br/>");
 <script src = "../javascript/semantic.js" type = "text/javascript"></script>
 <link rel = "stylesheet" href = "../css/semantic.css"/>
 </head>
-<body>
-	<a href="qrcode.html"></a><input type="button" onclick="document.location.href='qrcode.html';" value="RECOMMENCER UN SCAN"></a>
+<body class="ui center aligned basic segment">
+	<a href="qrcode.html"></a><input class="fluid ui blue button" type="button" onclick="document.location.href='qrcode.html';" value="RECOMMENCER UN SCAN"></a>
 </body>
 </html>
 
