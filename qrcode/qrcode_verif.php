@@ -27,7 +27,7 @@ document.getElementById('vendor_token').value = vendor_token;
 }
 </script>
 
-<body onload="myload()">
+<body onload="myload()" style="margin:70px;">
 <form name="myForm" action="qrcode_curlopt.php" method="post">
     <input type="hidden" name='phone' id='phone' value="?"/>
 	<input type="hidden" name='amount' id='amount' value="?"/>

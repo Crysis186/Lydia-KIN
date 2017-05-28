@@ -52,6 +52,6 @@ echo '</div>';
 <script src = "../javascript/semantic.js" type = "text/javascript"></script>
 <link rel = "stylesheet" href = "../css/semantic.css"/>
 </head>
-<body class="ui center aligned basic segment">
+<body class="ui center aligned basic segment" style="margin:70px;">
 </body>
 </html>
