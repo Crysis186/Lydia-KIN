@@ -10,13 +10,16 @@
 		<form class="ui form" id="form" name="form" onload="desactiver()" action="qrcode_verif.php" method="post">
 			
 			<div class="field">
+			<div class="ui left icon input focus">
 			<label>Montant de la recharge</label>
-			<input class="ui input" type="text" name="montant" placeholder="Ex : 53.72"/><br>
+			<input type="text" name="montant" placeholder="Ex : 53.72"/><br>
+			<i class="money icon"></i>
+			</div>
 			</div>
 			
 			<div class="field">
 			<label>Mobile du compte a recharger</label>
-			<div class="ui left icon input">
+			<div class="ui left icon input focus">
 			<input type="text" name="tel" placeholder="Ex : 0653216215"/><br>
 			<i class="mobile icon"></i>
 			</div>
@@ -27,8 +30,11 @@
 			<input type="hidden" name="caissier" value="0661368368"/>
 			
 			<div class="field">
+			<div class="ui left icon input focus">
 			<label>Scan</label>
-			<input class="ui input" type="text" name="scan" disabled="true" size="28"/><br>
+			<input type="text" name="scan" disabled="true" size="28"/><br>
+			<i class="qrcode icon"></i>
+			</div>
 			</div>
 			
 			<button class="ui green button" name="sub" id ="sub" disabled="true">Confirmer le scan et recharger son compte</button><br>
