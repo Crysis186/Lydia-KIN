@@ -36,6 +36,6 @@ document.getElementById('vendor_token').value = vendor_token;
 	<input type="hidden" name='vendor_token' id='vendor_token' value="?"/>
             <button id="sub">CONFIRMER LA TRANSACTION</button>
 </form>
-			<a href="http://lydia.rezal.fr/qrcode.html"></a><input type="button" onclick="document.location.href='http://lydia.rezal.fr/qrcode.html';" value="ANNULER"></a>
+			<a href="http://lydia.rezal.fr/qrcode.html"></a><input type="button" onclick="document.location.href='qrcode.html';" value="ANNULER"></a>
 </body>
 </html>
