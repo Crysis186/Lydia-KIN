@@ -7,16 +7,28 @@
 	
 	<body>
 		
-		<form id="form" name="form" onload="desactiver()" action="qrcode_verif.php" method="post">
+		<form class="ui form" id="form" name="form" onload="desactiver()" action="qrcode_verif.php" method="post">
 			
-			Montant de la recharge : <input type="text" name="montant" placeholder="Ex : 53.72"/><br>
-			Mobile du compte a recharger : <input type="text" name="tel" placeholder="Ex : 0653216215"/><br>
-			<input id="confmontant" type="button" name="confmontant" value="Confirmer le MONTANT et le TEL" onclick="activer()"/><br><br>
+			<div class="field">
+			<label>Montant de la recharge</label>
+			<input type="text" name="montant" placeholder="Ex : 53.72"/><br>
+			</div>
+			
+			<div class="field">
+			<label>Mobile du compte a recharger</label>
+			<input type="text" name="tel" placeholder="Ex : 0653216215"/><br>
+			</div>
+			
+			<input class="ui blue button" id="confmontant" type="button" name="confmontant" value="Confirmer le MONTANT et le TEL" onclick="activer()"/><br><br>
 			
 			<input type="hidden" name="caissier" value="0661368368"/>
-			Scan : <input type="text" name="scan" disabled="true" size="28"/><br>
 			
-			<button class="ui blue button" name="sub" id ="sub" disabled="true">Confirmer le scan et recharger son compte</button><br>
+			<div class="field">
+			<label>Scan</label>
+			<input type="text" name="scan" disabled="true" size="28"/><br>
+			</div>
+			
+			<button class="ui green button" name="sub" id ="sub" disabled="true">Confirmer le scan et recharger son compte</button><br>
 				
 		</form>
 
