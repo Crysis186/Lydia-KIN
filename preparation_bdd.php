@@ -36,7 +36,7 @@ while($row = mysql_fetch_array($query_order_ref)){
 	$order_ref = $row['id'];
 }
 
-echo '<div class="ui center aligned orange labeled segment">';
+echo '<div class="ui left labeled center aligned orange segment">';
 echo '<div class="ui label">';
 echo 'Bucque de ton compte kfet : ';
 echo '</div>';
