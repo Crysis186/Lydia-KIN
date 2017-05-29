@@ -37,10 +37,10 @@ while($row = mysql_fetch_array($query_order_ref)){
 }
 
 echo '<div class="ui center aligned orange segment">';
-echo '<p>Bucque de ton compte kfet : <b>'.$user_bucque.'</b></p>';
+echo '<p class="important">Bucque de ton compte kfet : <b>'.$user_bucque.'</b></p>';
 echo '</div>';
 echo '<div class="ui center aligned orange segment">';
-echo '<p>Montant de ta recharge : <b>'.$montant.'E</b></p>';
+echo '<p class="important">Montant de ta recharge : <b>'.$montant.'E</b></p>';
 echo '</div>';
 //echo "Order ref : ".$order_ref."<br/>";
 
@@ -51,6 +51,7 @@ echo '</div>';
 <head>
 <script src = "../javascript/semantic.js" type = "text/javascript"></script>
 <link rel = "stylesheet" href = "../css/semantic.css"/>
+<link rel = "stylesheet" href = "../css/perso.css"/>
 </head>
 <body class="ui center aligned basic segment" style="margin:70px;">
 </body>

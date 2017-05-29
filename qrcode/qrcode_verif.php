@@ -10,6 +10,7 @@ require('../preparation_bdd.php');
 <head>
 <script src = "../javascript/semantic.js" type = "text/javascript"></script>
 <link rel = "stylesheet" href = "../css/semantic.css"/>
+<link rel = "stylesheet" href = "../css/perso.css"/>
 </head>
 <script type="text/javascript">
 function myload() {
