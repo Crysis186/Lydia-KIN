@@ -37,9 +37,9 @@ while($row = mysql_fetch_array($query_order_ref)){
 }
 
 echo '<div class="ui center aligned orange labeled segment">';
-echo '<div class="ui label">'
-echo 'Bucque de ton compte kfet : '
-echo '</div>'
+echo '<div class="ui label">';
+echo 'Bucque de ton compte kfet : ';
+echo '</div>';
 echo '<p class="important"><b>'.$user_bucque.'</b></p>';
 echo '</div>';
 echo '<div class="ui center aligned orange segment">';
