@@ -27,9 +27,9 @@ $(document).ready(function() {
 	vendor_token: token_public, //Business Public Token
 	recipient: tel, //cellphone or email of your client. Leave it like this for your test
 	message : "Rechargement Kfet", //object of the payment
-	env: 'pro',
+	//env: 'pro',
 	render : '<img src="https://lydia-app.com/assets/img/paymentbutton.png" />',
-	browser_success_url: "http://kfet.kin/",
+	browser_success_url: "https://kfet.rezal.fr/",
 	confirm_url: "https://lydia.rezal.fr/lydia_confirm_boutton.php",
 	});
 });
